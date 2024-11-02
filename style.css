@@ -1,0 +1,45 @@
+* { /*universal selectors*/
+    font-family: 'Times New Roman';
+}
+    body {
+    background-image: url("/latihan/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    background-color: silver;
+    border: solid;
+}
+
+p {
+    padding: 10px;
+    text-align: justify;
+    font-size: 15px;
+    color: black;
+}
+h2 {
+    background-color: seashell;
+    text-align: center;
+}
+div {
+    padding: 10px;
+    background-color: rgba(300, 300, 300, 0.5);
+    margin: 70px;
+    border: solid;
+}
+img {
+    margin: 7px;
+    float: left;
+    width: 135px;
+    height: 200px;
+}
+
+.border {
+    border-style: dotted;
+    border-color: black;
+    border-radius: 5px;
+    margin: 5px;
+}
